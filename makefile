@@ -26,3 +26,4 @@ $(BIN): $(OBJ)
 
 filetest.o: filetest.c
 	$(CC) -c filetest.c -o filetest.o $(CFLAGS)
+	
